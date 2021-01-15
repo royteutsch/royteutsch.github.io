@@ -1,0 +1,59 @@
+:root { /* Custum Colors */
+    --black: rgb(21, 19, 15);
+    --blue: rgb(45, 90, 160);
+    --green: rgb(80, 135, 20);
+    --cyan: rgb(25, 140, 140);
+    --red: rgb(160, 20, 10);
+    --magenta: rgb(135, 60, 130);
+    --brown: rgb(150, 75, 55);
+    --lgray: rgb(178, 175, 172);
+    --dgray: rgb(116, 110, 113);
+    --lblue: rgb(105, 135, 225);
+    --lgreen: rgb(125, 185, 55);
+    --lcyan: rgb(60, 205, 190);
+    --lred: rgb(220, 50, 20);
+    --lmagenta: rgb(190, 110, 185);
+    --yellow: rgb(230, 170, 30);
+    --white: rgb(232, 227, 232);
+} /* I'm not going to use them all, but they are very appealing and easy on the eyes */
+
+#LightModeHub, #LightModeKoteg, #LightModeStatue {
+    background-color: var(--white);
+    color: var(--black);
+    transition-duration: 0.2s;
+}
+
+#DarkModeHub, #DarkModeKoteg, #DarkModeStatue {
+    background-color: var(--black);
+    color: var(--lgray);
+    transition-duration: 0.2s;
+}
+
+#Text {
+    text-align: center;
+    margin-top: 10ex;
+}
+
+#Images {
+    vertical-align: middle;
+    margin-top: 10ex;
+}
+
+#StoryLight, #blmLight {
+    font-size: 24px;
+    text-align: right;
+    background-color: var(--lgray);
+    border-radius: 10px;
+}
+
+#StoryDark, #blmDark {
+    font-size: 24px;
+    text-align: right;
+    background-color: var(--dgray);
+    color: var(--black);
+    border-radius: 10px;
+}
+
+#themeButtonHub, #themeButtonKoteg {
+    vertical-align: bottom;
+}
